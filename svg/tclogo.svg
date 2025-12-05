@@ -1,53 +1,28 @@
-<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="24" viewBox="0 0 200 24" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Crimson Gradient -->
-  <defs>
-    <linearGradient id="crimson" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF0024"/>
-      <stop offset="100%" stop-color="#B30018"/>
-    </linearGradient>
-  </defs>
-
-  <!-- LEFT: TC Diamond Logo -->
-  <g transform="translate(0,0) scale(0.23)">
+  <!-- LEFT ICON (scaled tclogo.svg) -->
+  <g transform="translate(0,0) scale(0.046)">
     <circle cx="256" cy="256" r="250" fill="#0A0004"/>
-
     <polygon points="256,60 452,256 256,452 60,256"
-             stroke="url(#crimson)" stroke-width="22" fill="none"/>
-
-    <g stroke="url(#crimson)" stroke-width="9" opacity="0.8" stroke-linecap="round">
-      <line x1="256" y1="110" x2="256" y2="180"/>
-      <line x1="256" y1="330" x2="256" y2="400"/>
-      <line x1="110" y1="256" x2="180" y2="256"/>
-      <line x1="330" y1="256" x2="400" y2="256"/>
-      <line x1="180" y1="180" x2="226" y2="226"/>
-      <line x1="330" y1="180" x2="286" y2="226"/>
-      <line x1="180" y1="330" x2="226" y2="286"/>
-      <line x1="330" y1="330" x2="286" y2="286"/>
-    </g>
-
-    <circle cx="256" cy="256" r="48" fill="white" stroke="#FF001E" stroke-width="6"/>
-
+      stroke="#C60020" stroke-width="40" fill="none"/>
+    <line x1="256" y1="110" x2="256" y2="180" stroke="#C60020" stroke-width="25"/>
+    <line x1="256" y1="330" x2="256" y2="400" stroke="#C60020" stroke-width="25"/>
+    <line x1="110" y1="256" x2="180" y2="256" stroke="#C60020" stroke-width="25"/>
+    <line x1="330" y1="256" x2="400" y2="256" stroke="#C60020" stroke-width="25"/>
+    <circle cx="256" cy="256" r="48" fill="white" stroke="#FF0022" stroke-width="10"/>
     <text x="256" y="256"
-          font-size="54"
-          font-family="Orbitron, Montserrat, Arial"
-          font-weight="700"
-          fill="#FF0022"
-          text-anchor="middle"
-          dominant-baseline="middle"
-          letter-spacing="3">
+      font-size="70" font-family="Orbitron, Arial" font-weight="700"
+      fill="#FF0022" text-anchor="middle" dominant-baseline="middle">
       TC
     </text>
   </g>
 
-  <!-- RIGHT: TURKCHAIN text -->
-  <text x="150" y="78"
-        font-family="Segoe UI, Inter, Arial, sans-serif"
-        font-size="54"
-        font-weight="700"
-        letter-spacing="3"
-        fill="url(#crimson)"
-        style="font-variant: small-caps;">
+  <!-- RIGHT TEXT (moved closer) -->
+  <text x="52" y="17"
+    font-family="Inter, Arial, sans-serif"
+    font-size="18" font-weight="700"
+    fill="#C60020"
+    style="letter-spacing:1px; font-variant:small-caps;">
     TurkChain
   </text>
 
