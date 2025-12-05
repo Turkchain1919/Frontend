@@ -1,0 +1,26 @@
+[
+  {
+		"title": "Turkchain",
+		"url": "https://explorer.turkchain1919.com/",
+		"group": "Mainnets",
+		"icon": "https://github.com/Turkchain1919/Frontend/blob/main/svg/Turk.svg"
+	},
+  {
+		"title": "Ethereum",
+		"url": "https://etherscan.io/",
+		"group": "Mainnets",
+		"icon": "https://github.com/Turkchain1919/Frontend/blob/main/svg/ethereum.svg"
+	},
+	{
+		"title": "Tron Scan",
+		"url": "https://tronscan.org/",
+		"group": "Mainnets",
+		"icon": "https://github.com/Turkchain1919/Frontend/blob/main/svg/tron.svg"
+	},
+	{
+		"title": "Polygon",
+		"url": "https://polygonscan.com/",
+		"group": "Mainnets",
+		"icon": "https://github.com/Turkchain1919/Frontend/blob/main/svg/polygon.svg"
+	},
+]
