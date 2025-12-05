@@ -1,0 +1,57 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1A0004"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <radialGradient id="crimsonGlow" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#FF1A3C"/>
+      <stop offset="100%" stop-color="#4A000A" stop-opacity="0.4"/>
+    </radialGradient>
+
+    <linearGradient id="crimsonLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF2A45"/>
+      <stop offset="100%" stop-color="#CC001A"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="256" cy="256" r="250" fill="url(#bg)"/>
+
+  <!-- Diamond Crimson Frame -->
+  <polygon points="256,60 452,256 256,452 60,256"
+           stroke="url(#crimsonGlow)" stroke-width="22" fill="none"/>
+
+  <!-- Cyber-Tech Circuit Lines -->
+  <g stroke="url(#crimsonLine)" stroke-width="9" stroke-linecap="round" opacity="0.85">
+    <line x1="256" y1="110" x2="256" y2="180"/>
+    <line x1="256" y1="330" x2="256" y2="400"/>
+
+    <line x1="110" y1="256" x2="180" y2="256"/>
+    <line x1="330" y1="256" x2="400" y2="256"/>
+
+    <!-- Diagonals -->
+    <line x1="180" y1="180" x2="226" y2="226"/>
+    <line x1="330" y1="180" x2="286" y2="226"/>
+    <line x1="180" y1="330" x2="226" y2="286"/>
+    <line x1="330" y1="330" x2="286" y2="286"/>
+  </g>
+
+  <!-- Inner Core -->
+  <circle cx="256" cy="256" r="48" fill="#FFFFFF" stroke="#FF0033" stroke-width="6"/>
+
+  <!-- TC inside core (small, premium style) -->
+  <text x="256" y="256"
+        font-size="54"
+        font-family="Orbitron, Montserrat, Arial"
+        font-weight="700"
+        fill="#FF0022"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        letter-spacing="3">
+    TC
+  </text>
+
+</svg>
