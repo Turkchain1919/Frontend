@@ -1,0 +1,41 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <circle cx="15" cy="15" r="15" fill="#03101F"/>
+
+  <!-- Outer Glow Circle -->
+  <circle cx="15" cy="15" r="13" stroke="#6AF0FF" stroke-width="1.6" opacity="0.7"/>
+
+  <!-- Diamond -->
+  <polygon points="15,3.5 26.5,15 15,26.5 3.5,15"
+           stroke="#6AF0FF" stroke-width="1.6" fill="none" opacity="0.85"/>
+
+  <!-- Circuit lines (mini version for 30px) -->
+  <g stroke="#5FD8FF" stroke-width="0.8" opacity="0.7" stroke-linecap="round">
+    <line x1="15" y1="6.5" x2="15" y2="10"/>
+    <line x1="15" y1="20" x2="15" y2="23.5"/>
+
+    <line x1="6.5" y1="15" x2="10" y2="15"/>
+    <line x1="20" y1="15" x2="23.5" y2="15"/>
+
+    <line x1="10" y1="10" x2="12.5" y2="12.5"/>
+    <line x1="20" y1="10" x2="17.5" y2="12.5"/>
+    <line x1="10" y1="20" x2="12.5" y2="17.5"/>
+    <line x1="20" y1="20" x2="17.5" y2="17.5"/>
+  </g>
+
+  <!-- Center core -->
+  <circle cx="15" cy="15" r="3.3" fill="white"/>
+
+  <!-- TC inside core -->
+  <text x="15" y="15"
+        font-size="3.3"
+        font-family="Montserrat, Arial"
+        font-weight="700"
+        fill="#FF2A2A"
+        text-anchor="middle"
+        dominant-baseline="middle">
+    TC
+  </text>
+
+</svg>
