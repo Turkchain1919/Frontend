@@ -1,20 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 120 24">
-  <g clip-path="url(#optimism_svg__a)">
-    <text
-      x="0"
-      y="18"
-      font-family="Arial"
-      font-weight="700"
-      font-size="18"
-      fill="#FF0420"
-    >
-      TURKCHAIN
-    </text>
-  </g>
-
-  <defs>
-    <clipPath id="optimism_svg__a">
-      <path fill="#fff" d="M0 4h120v16H0z"/>
-    </clipPath>
-  </de
- 
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 120 24">
+  <rect width="120" height="24" fill="none"/>
+  <text
+    x="0"
+    y="18"
+    font-family="Arial"
+    font-size="18"
+    font-weight="700"
+    fill="#FF0420"
+  >
+    TURKCHAIN
+  </text>
+</svg>
