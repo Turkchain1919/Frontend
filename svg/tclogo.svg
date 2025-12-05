@@ -1,29 +1,12 @@
-<svg width="200" height="24" viewBox="0 0 200 24" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- LEFT ICON (scaled tclogo.svg) -->
-  <g transform="translate(0,0) scale(0.046)">
-    <circle cx="256" cy="256" r="250" fill="#0A0004"/>
-    <polygon points="256,60 452,256 256,452 60,256"
-      stroke="#C60020" stroke-width="40" fill="none"/>
-    <line x1="256" y1="110" x2="256" y2="180" stroke="#C60020" stroke-width="25"/>
-    <line x1="256" y1="330" x2="256" y2="400" stroke="#C60020" stroke-width="25"/>
-    <line x1="110" y1="256" x2="180" y2="256" stroke="#C60020" stroke-width="25"/>
-    <line x1="330" y1="256" x2="400" y2="256" stroke="#C60020" stroke-width="25"/>
-    <circle cx="256" cy="256" r="48" fill="white" stroke="#FF0022" stroke-width="10"/>
-    <text x="256" y="256"
-      font-size="70" font-family="Orbitron, Arial" font-weight="700"
-      fill="#FF0022" text-anchor="middle" dominant-baseline="middle">
-      TC
-    </text>
-  </g>
-
-  <!-- RIGHT TEXT (moved closer) -->
-  <text x="52" y="17"
-    font-family="Inter, Arial, sans-serif"
-    font-size="18" font-weight="700"
-    fill="#C60020"
-    style="letter-spacing:1px; font-variant:small-caps;">
-    TurkChain
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 120 24">
+  <text
+    x="0"
+    y="18"
+    font-family="Arial"
+    font-size="20"
+    font-weight="700"
+    fill="#FF0420"
+  >
+    TURKCHAIN
   </text>
-
 </svg>
