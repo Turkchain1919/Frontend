@@ -2,88 +2,34 @@
   {
     "title": "Explorer",
     "links": [
-      {
-        "text": "Home",
-        "url": "https://www.turkchain1919.com/"
-      },
-      {
-        "text": "TurkSwap",
-        "url": "https://turkchain1919.com/"
-      },
-      {
-        "text": "TurkBridge",
-        "url": "https://turkchain1919.com/"
-      },
-      {
-        "text": "TurkDex",
-        "url": "https://turkchain1919.com/"
-      },
-      {
-        "text": "Feature request",
-        "url": "https://turkchain1919.com/"
-      }
+      { "text": "Home", "url": "https://www.turkchain1919.com/" },
+      { "text": "TurkSwap", "url": "https://www.turkchain1919.com/" },
+      { "text": "TurkBridge", "url": "https://www.turkchain1919.com/" },
+      { "text": "TurkDex", "url": "https://www.turkchain1919.com/" },
+      { "text": "Feature request", "url": "https://www.turkchain1919.com/" }
     ]
   },
   {
     "title": "Developers",
     "links": [
-      {
-        "text": "Documentation",
-        "url": "https://doc.turkchain1919.com/"
-      },
-      {
-        "text": "Status",
-        "url": "https://status.turkchain1919.com/"
-      },
-      {
-        "text": "Bug bounty",
-        "url": "https://turkchain1919.com/"
-      },
-      {
-        "text": "Dev blog",
-        "url": "https://turkchain1919.com/"
-      },
-      {
-        "text": "Marketing support",
-        "url": "https://turkchain1919.com/"
-      },
-      {
-        "text": "Get in touch",
-        "url": "https://turkchain1919.com/"
-      },
-      {
-        "text": "GitHub",
-        "url": "https://github.com/Turkchain1919"
-      }
+      { "text": "Documentation", "url": "https://doc.turkchain1919.com/" },
+      { "text": "Status", "url": "https://status.turkchain1919.com/" },
+      { "text": "Bug bounty", "url": "https://www.turkchain1919.com/" },
+      { "text": "Dev blog", "url": "https://www.turkchain1919.com/" },
+      { "text": "Marketing support", "url": "https://www.turkchain1919.com/" },
+      { "text": "Get in touch", "url": "https://www.turkchain1919.com/" },
+      { "text": "GitHub", "url": "https://github.com/Turkchain1919/" }
     ]
   },
   {
     "title": "Social",
     "links": [
-      {
-        "text": "Discord",
-        "url": "https://discord.com/invite/zcr37g2H"
-      },
-      {
-        "text": "Twitter",
-        "url": "https://x.com/Turkchain1919"
-      },
-      {
-        "text": "Telegram",
-        "url": "https://t.me/Turkchain1919"
-      },
-      {
-        "text": "Blog",
-        "url": "https://turkchain1919.substack.com"
-      },
-      {
-        "text": "Reddit",
-        "url": "https://www.reddit.com/u/Turkchain1919"
-      },
-      {
-        "text": "YouTube",
-        "url": "https://www.youtube.com/@Turkchain1919"
-      }
+      { "text": "Discord", "url": "https://discord.com/invite/zcr37g2H/" },
+      { "text": "Twitter", "url": "https://x.com/Turkchain1919/" },
+      { "text": "Telegram", "url": "https://t.me/Turkchain1919/" },
+      { "text": "Blog", "url": "https://turkchain1919.substack.com/" },
+      { "text": "Reddit", "url": "https://www.reddit.com/u/Turkchain1919/" },
+      { "text": "YouTube", "url": "https://www.youtube.com/@Turkchain1919/" }
     ]
   },
   {
@@ -91,42 +37,42 @@
     "links": [
       {
         "text": "Sourcify",
-        "url": "https://turkchain1919.com/",
+        "url": "https://www.turkchain1919.com/",
         "iconUrl": [
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/sourcify.svg",
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/sourcify-dark.svg"
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/sourcify.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/sourcify-dark.svg"
         ]
       },
       {
         "text": "DRPC",
-        "url": "https://turkchain1919.com/",
+        "url": "https://www.turkchain1919.com/",
         "iconUrl": [
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/drpc.svg",
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/drpc-dark.svg"
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/drpc.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/drpc-dark.svg"
         ]
       },
       {
         "text": "BlockSec",
-        "url": "https://turkchain1919.com/",
+        "url": "https://www.turkchain1919.com/",
         "iconUrl": [
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/blocksec.svg",
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/blocksec-dark.svg"
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/blocksec.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/blocksec-dark.svg"
         ]
       },
       {
         "text": "OLI",
-        "url": "https://turkchain1919.com/",
+        "url": "https://www.turkchain1919.com/",
         "iconUrl": [
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/oli.svg",
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/oli-dark.svg"
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/oli.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/oli-dark.svg"
         ]
       },
       {
         "text": "Growthepie",
-        "url": "https://turkchain1919.com/",
+        "url": "https://www.turkchain1919.com/",
         "iconUrl": [
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/growthepie.svg",
-          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/growthepie-dark.svg"
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/growthepie.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/footer-icons/growthepie-dark.svg"
         ]
       }
     ]
