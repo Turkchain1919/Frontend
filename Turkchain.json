@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Explorer",
+    "links": [
+      {
+        "text": "Home",
+        "url": "https://www.turkchain1919.com/"
+      },
+      {
+        "text": "TurkSwap",
+        "url": "#"
+      },
+      {
+        "text": "TurkBridge",
+        "url": "#"
+      },
+      {
+        "text": "TurkDex",
+        "url": "#"
+      },
+      {
+        "text": "Feature request",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "title": "Developers",
+    "links": [
+      {
+        "text": "Documentation",
+        "url": "https://doc.turkchain1919.com/"
+      },
+      {
+        "text": "Status",
+        "url": "https://status.turkchain1919.com/"
+      },
+      {
+        "text": "Bug bounty",
+        "url": "#"
+      },
+      {
+        "text": "Dev blog",
+        "url": "#"
+      },
+      {
+        "text": "Marketing support",
+        "url": "#"
+      },
+      {
+        "text": "Get in touch",
+        "url": "#"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/Turkchain1919"
+      }
+    ]
+  },
+  {
+    "title": "Social",
+    "links": [
+      {
+        "text": "Discord",
+        "url": "https://discord.com/invite/zcr37g2H"
+      },
+      {
+        "text": "Twitter",
+        "url": "https://x.com/Turkchain1919"
+      },
+      {
+        "text": "Telegram",
+        "url": "https://t.me/Turkchain1919"
+      },
+      {
+        "text": "Blog",
+        "url": "https://turkchain1919.substack.com"
+      },
+      {
+        "text": "Reddit",
+        "url": "https://www.reddit.com/u/Turkchain1919"
+      },
+      {
+        "text": "YouTube",
+        "url": "https://www.youtube.com/@Turkchain1919"
+      }
+    ]
+  },
+  {
+    "title": "Partners",
+    "links": [
+      {
+        "text": "Sourcify",
+        "url": "#",
+        "iconUrl": [
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/sourcify.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/sourcify-dark.svg"
+        ]
+      },
+      {
+        "text": "DRPC",
+        "url": "#",
+        "iconUrl": [
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/drpc.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/drpc-dark.svg"
+        ]
+      },
+      {
+        "text": "BlockSec",
+        "url": "#",
+        "iconUrl": [
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/blocksec.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/blocksec-dark.svg"
+        ]
+      },
+      {
+        "text": "OLI",
+        "url": "#",
+        "iconUrl": [
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/oli.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/oli-dark.svg"
+        ]
+      },
+      {
+        "text": "Growthepie",
+        "url": "#",
+        "iconUrl": [
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/growthepie.svg",
+          "https://raw.githubusercontent.com/blockscout/frontend-configs/refs/heads/main/configs/footer-icons/growthepie-dark.svg"
+        ]
+      }
+    ]
+  }
+]
