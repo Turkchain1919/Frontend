@@ -1,0 +1,35 @@
+[
+  {
+    "id": "turk-wallet",
+    "external": false,
+    "title": "Turk Wallet",
+    "logo": "https://turkchain1919.com/assets/wallet-icon.png",
+    "shortDescription": "Zincire özel güvenli cüzdan",
+    "categories": ["Wallet", "Tools"],
+    "author": "Turkchain1919",
+    "url": "https://wallet.turkchain1919.com/launch",
+    "description": "Turkchain kullanıcıları için özel geliştirilmiş güvenli, hızlı ve zincire entegre cüzdan uygulaması.",
+    "site": "https://turkchain1919.com",
+    "twitter": "https://x.com/Turkchain1919",
+    "telegram": "https://t.me/Turkchain1919",
+    "github": "https://github.com/Turkchain1919",
+    "internalWallet": true,
+    "priority": 10
+  },
+  {
+    "id": "turk-nft-viewer",
+    "external": true,
+    "title": "Turk NFT Viewer",
+    "logo": "https://turkchain1919.com/assets/nft-icon.png",
+    "shortDescription": "Zincirdeki NFT'leri keşfet",
+    "categories": ["NFT", "Explorer"],
+    "author": "Turkchain1919",
+    "url": "https://nft.turkchain1919.com/",
+    "description": "Turkchain NFT'lerini listele, keşfet ve detaylarına ulaş.",
+    "site": "https://turkchain1919.com",
+    "twitter": "https://x.com/Turkchain1919",
+    "telegram": "https://t.me/Turkchain1919",
+    "github": "https://github.com/Turkchain1919",
+    "priority": 9
+  }
+]
