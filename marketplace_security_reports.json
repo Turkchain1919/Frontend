@@ -1,0 +1,14 @@
+{
+  "turk-wallet": {
+    "score": 92,
+    "reportUrl": "https://turkchain1919.com/reports/turk-wallet-security.html",
+    "auditor": "Solidproof",
+    "date": "2025-11-15"
+  },
+  "turk-nft-viewer": {
+    "score": 88,
+    "reportUrl": "https://turkchain1919.com/reports/turk-nft-viewer-security.html",
+    "auditor": "Hacken",
+    "date": "2025-10-01"
+  }
+}
