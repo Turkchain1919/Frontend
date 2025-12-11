@@ -5,67 +5,106 @@
 <style>
 .ataturk-banner {
   width: 100%;
-  height: 150px;
-  border-radius: 14px;
-  background: linear-gradient(110deg, #000000 0%, #1a1a1a 50%, #2a2a2a 100%);
+  height: 170px;
+  border-radius: 16px;
+  background: linear-gradient(120deg, #000000 0%, #141414 40%, #1f1f1f 70%, #2a2a2a 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 26px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 0 18px rgba(255,255,255,0.12) inset,
+              0 0 30px rgba(0,0,0,0.7);
 }
 
-/* Atatürk Silüeti */
+/* Background 3D Glow */
+.ataturk-banner::after {
+  content: "";
+  position: absolute;
+  width: 160%;
+  height: 160%;
+  top: -30%;
+  left: -30%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.12), transparent 70%);
+  opacity: 0.45;
+  filter: blur(20px);
+  animation: slowGlow 12s infinite alternate ease-in-out;
+}
+
+/* Ataturk shadow */
 .ataturk-siluet {
   position: absolute;
-  left: 10px;
+  left: 20px;
   bottom: 0;
-  height: 120px;
-  opacity: 0.32;
+  height: 150px;
+  opacity: 0.34;
   animation: fadeSlide 6s infinite ease-in-out alternate;
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.18));
 }
 
-/* Yazı Alanı */
+/* Text */
 .ataturk-text {
   z-index: 2;
   text-align: center;
-  max-width: 80%;
-  font-size: 15px;
+  max-width: 82%;
+  font-size: 17px;
   font-weight: 400;
-  animation: fadeIn 3s ease;
+  animation: fadeIn 2.4s ease;
 }
 
 .ataturk-text span {
-  font-weight: 600;
+  font-weight: 700;
   color: #FFD700;
 }
 
-/* Animasyonlar */
+/* Signature */
+.ataturk-imza {
+  margin-top: 8px;
+  height: 36px;
+  opacity: 0.85;
+}
+
+/* Animations */
 @keyframes fadeSlide {
-  0% { opacity: 0.15; transform: translateY(6px); }
-  100% { opacity: 0.40; transform: translateY(-6px); }
+  0% { opacity: 0.18; transform: translateY(5px); }
+  100% { opacity: 0.40; transform: translateY(-5px); }
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(10px); }
+  0% { opacity: 0; transform: translateY(14px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes slowGlow {
+  0% { opacity: 0.25; }
+  100% { opacity: 0.55; }
+}
+
 @media (min-width: 720px) {
-  .ataturk-text { font-size: 20px; }
-  .ataturk-banner { height: 160px; }
-  .ataturk-siluet { height: 150px; }
+  .ataturk-text { font-size: 21px; }
+  .ataturk-banner { height: 190px; }
+  .ataturk-siluet { height: 170px; }
+  .ataturk-imza { height: 45px; }
 }
 </style>
 
 <div class="ataturk-banner">
-  <img class="ataturk-siluet" src="https://i.imgur.com/dXxJZtL.png" alt="Atatürk Siluet">
-  
+
+  <!-- Ataturk shadow -->
+  <img class="ataturk-siluet" src="https://i.imgur.com/dXxJZtL.png" alt="Ataturk Siluet">
+
+  <!-- Text & Signature -->
   <div class="ataturk-text">
-    “Dünyada her şey için, medeniyet için, hayat için, başarı için,
-    <span>en hakiki mürşit bilimdir, fendir.</span>”
+    “Hayatta en hakiki mursit ilimdir fendir, ilim ve fenden baska yol gosterici aramak gaflettir, dalalettir, cehalettir.”
+    <br>
+    <span>Mustafa Kemal Ataturk</span>
+
+    <div>
+      <img class="ataturk-imza" src="https://i.imgur.com/1y0B77q.png" alt="Ataturk Imza">
+    </div>
   </div>
+
 </div>
