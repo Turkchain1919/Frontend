@@ -5,54 +5,57 @@
 <style>
 .ataturk-banner {
   width: 100%;
-  height: 170px;
-  border-radius: 16px;
+  max-width: 100%;
+  border-radius: 14px;
   background: linear-gradient(120deg, #000000 0%, #141414 40%, #1f1f1f 70%, #2a2a2a 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 26px;
+  padding: 14px 18px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 18px rgba(255,255,255,0.12) inset,
-              0 0 30px rgba(0,0,0,0.7);
+  box-shadow: 0 0 14px rgba(255,255,255,0.10) inset,
+              0 0 22px rgba(0,0,0,0.65);
+  /* sabit height yok, auto olacak */
+  min-height: 100px;
 }
 
-/* Background 3D Glow */
+/* background glow */
 .ataturk-banner::after {
   content: "";
   position: absolute;
-  width: 160%;
-  height: 160%;
-  top: -30%;
-  left: -30%;
-  background: radial-gradient(circle at center, rgba(255,255,255,0.12), transparent 70%);
-  opacity: 0.45;
-  filter: blur(20px);
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.10), transparent 70%);
+  opacity: 0.35;
+  filter: blur(18px);
   animation: slowGlow 12s infinite alternate ease-in-out;
 }
 
-/* Ataturk shadow */
+/* ataturk shadow */
 .ataturk-siluet {
   position: absolute;
-  left: 20px;
+  left: 14px;
   bottom: 0;
-  height: 150px;
-  opacity: 0.34;
+  height: 90px;
+  opacity: 0.32;
   animation: fadeSlide 6s infinite ease-in-out alternate;
-  filter: drop-shadow(0 0 6px rgba(255,255,255,0.18));
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.18));
 }
 
-/* Text */
+/* text */
 .ataturk-text {
   z-index: 2;
   text-align: center;
-  max-width: 82%;
-  font-size: 17px;
+  max-width: 88%;
+  font-size: 13px;
   font-weight: 400;
-  animation: fadeIn 2.4s ease;
+  line-height: 1.4;
+  animation: fadeIn 2.2s ease;
 }
 
 .ataturk-text span {
@@ -60,43 +63,43 @@
   color: #FFD700;
 }
 
-/* Signature */
+/* signature */
 .ataturk-imza {
-  margin-top: 8px;
-  height: 36px;
-  opacity: 0.85;
+  margin-top: 6px;
+  height: 24px;
+  opacity: 0.9;
 }
 
-/* Animations */
+/* animations */
 @keyframes fadeSlide {
-  0% { opacity: 0.18; transform: translateY(5px); }
-  100% { opacity: 0.40; transform: translateY(-5px); }
+  0% { opacity: 0.18; transform: translateY(4px); }
+  100% { opacity: 0.40; transform: translateY(-4px); }
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(14px); }
+  0% { opacity: 0; transform: translateY(12px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes slowGlow {
-  0% { opacity: 0.25; }
-  100% { opacity: 0.55; }
+  0% { opacity: 0.22; }
+  100% { opacity: 0.45; }
 }
 
+/* bigger screens */
 @media (min-width: 720px) {
-  .ataturk-text { font-size: 21px; }
-  .ataturk-banner { height: 190px; }
-  .ataturk-siluet { height: 170px; }
-  .ataturk-imza { height: 45px; }
+  .ataturk-text { font-size: 15px; }
+  .ataturk-siluet { height: 110px; }
+  .ataturk-imza { height: 28px; }
 }
 </style>
 
 <div class="ataturk-banner">
 
-  <!-- Ataturk shadow -->
+  <!-- ataturk shadow -->
   <img class="ataturk-siluet" src="https://i.imgur.com/dXxJZtL.png" alt="Ataturk Siluet">
 
-  <!-- Text & Signature -->
+  <!-- text and signature -->
   <div class="ataturk-text">
     “Hayatta en hakiki mursit ilimdir fendir, ilim ve fenden baska yol gosterici aramak gaflettir, dalalettir, cehalettir.”
     <br>
