@@ -18,9 +18,9 @@
     "icon": "https://raw.githubusercontent.com/Turkchain1919/Frontend/main/svg/tron.svg"
   },
   {
-    "title": "Polygon",
-    "url": "https://polygonscan.com/",
+    "title": "Solana",
+    "url": "https://solscan.io/",
     "group": "Mainnets",
-    "icon": "https://raw.githubusercontent.com/Turkchain1919/Frontend/main/svg/polygon.svg"
+    "icon": "https://raw.githubusercontent.com/Turkchain1919/Frontend/main/svg/solana.png"
   }
 ]
